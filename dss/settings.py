@@ -25,7 +25,9 @@ SECRET_KEY = '20rjl**xt)851mf5y(=xrlk5i54iplmc#^*m3jidn_mb%ppw75'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ('matkhak.pythonanywhere.com', )
+ALLOWED_HOSTS =  ['127.0.0.1', 
+		'matkhak.pythonanywhere.com',
+		 ]
 
 
 # Application definition
