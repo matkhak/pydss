@@ -25,7 +25,7 @@ SECRET_KEY = '20rjl**xt)851mf5y(=xrlk5i54iplmc#^*m3jidn_mb%ppw75'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ('matkhak.pythonanywhere.com', )
 
 
 # Application definition
@@ -69,7 +69,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'dss.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
